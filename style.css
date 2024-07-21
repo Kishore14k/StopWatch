@@ -1,0 +1,90 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,121,110,1) 35%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+#heading{
+    font-size: 30px;
+    font-weight: 1000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+#timer{
+    font-size: 30px;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+#btns{
+    padding: 20px;
+}
+
+#start{
+    padding: 10px;
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#stop{
+    padding: 10px;
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#reset{
+    padding: 10px;
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#start:hover{
+    background-color: green;
+}
+#stop:hover{
+    background-color: red;
+}
+#reset:hover{
+    background-color: yellow;
+}
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="heading">
+            STOPWATCH
+        </div>
+        <div id="timer">
+            <span id="hrs">00</span>
+            <span>:</span>
+            <span id="mins">00</span>
+            <span>:</span>
+            <span id="secs">00</span>
+        </div>
+        <div id="btns">
+            <button onclick="stoptimer()" id="stop">Stop</button>
+            <button onclick="starttimer()" id="start">Start</button>
+            <button onclick="resettimer()" id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> */
